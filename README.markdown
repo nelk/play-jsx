@@ -10,9 +10,11 @@ Refer to the site of JSX for more information.
 
 ## Installation
 
+To build and install this into your local ivy repository, you can run `sbt publishLocal` or `./activator publishLocal`
+
 Add following to your projects `project/plugins.sbt`
 
-    addSbtPlugin("com.github.hexx" % "play-jsx" % "0.0.2")
+    addSbtPlugin("com.github.hexx" % "play-jsx" % "0.0.3-SNAPSHOT")
 
 After Installation, this plugin works like the built-in CoffeeScript compiler.
 
